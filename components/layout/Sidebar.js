@@ -11,9 +11,9 @@ import SidebarItem from './SidebarItem'
 
 export default function Sidebar(){
     return (
-        <div className="flex flex-col w-64 h-[100vh] border-r border-fifth">
+        <div className="flex flex-col w-76 h-screen border-r-2 border-fifth">
             <a href="" className="flex items-center gap-2 border-b-2 border-fifth w-full p-4">
-                <img src="./markety.svg" className="w-8"/>
+                <img src="./markety.svg" className="w-8 h-8"/>
                 <h1 className="text-2xl font-bold text-first">Markety</h1>
             </a>
             <div className="flex flex-col p-2 border-b-2 border-fifth">
@@ -37,8 +37,6 @@ export default function Sidebar(){
                 <SidebarItem text="Settings" href="">
                     <Cog6ToothIcon className='w-4'/>
                 </SidebarItem>
-            </div>
-            <div className="flex flex-col p-2 border-b-2 border-fifth">
                 <SidebarItem text="Account" href="">
                     <UserIcon className='w-4'/>
                 </SidebarItem>

@@ -1,6 +1,6 @@
 import Sidebar from "@/components/layout/Sidebar";
-import Dashboard from "@/components/pages/Dashboard/Dashboard";
-import FlexWrapper from "@/components/Wrappers/FlexWrapper";
+import Dashboard from "@/components/pages/Dashboard";
+import FlexWrapper from "@/components/wrappers/FlexWrapper";
 
 export const metadata = {
   title: "Markety",
