@@ -12,11 +12,11 @@ import SidebarItem from './SidebarItem'
 export default function Sidebar(){
     return (
         <div className="flex flex-col w-76 h-screen border-r-2 border-fifth">
-            <a href="" className="flex items-center gap-2 border-b-2 border-fifth w-full p-4">
+            <a href="" className="flex items-center gap-2 border-b-2 border-fifth w-full py-4 px-6">
                 <img src="./markety.svg" className="w-8 h-8"/>
                 <h1 className="text-2xl font-bold text-first">Markety</h1>
             </a>
-            <div className="flex flex-col p-2 border-b-2 border-fifth">
+            <div className="flex flex-col py-2 px-4 border-b-2 border-fifth">
                 <SidebarItem text="Dashboard" href="">
                     <Squares2X2Icon className='w-4'/>
                 </SidebarItem>
@@ -27,7 +27,7 @@ export default function Sidebar(){
                     <MegaphoneIcon className='w-4'/>
                 </SidebarItem>
             </div>
-            <div className="flex flex-col p-2 border-b-2 border-fifth">
+            <div className="flex flex-col py-2 px-4 border-b-2 border-fifth">
                 <SidebarItem text="Help" href="">
                     <QuestionMarkCircleIcon className='w-4'/>
                 </SidebarItem>

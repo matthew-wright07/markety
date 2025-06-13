@@ -1,4 +1,4 @@
-import { BanknotesIcon, EyeIcon, MegaphoneIcon, TvIcon, BoltIcon, ArchiveBoxIcon, PercentBadgeIcon, BuildingStorefrontIcon, QuestionMarkCircleIcon, UserGroupIcon, BellAlertIcon, AcademicCapIcon, ChatBubbleOvalLeftIcon, ClockIcon } from "@heroicons/react/20/solid"
+import { BanknotesIcon, EyeIcon, MegaphoneIcon, TvIcon, BoltIcon, ArchiveBoxIcon, PercentBadgeIcon, BuildingStorefrontIcon, QuestionMarkCircleIcon, UserGroupIcon, BellAlertIcon, AcademicCapIcon, ChatBubbleOvalLeftIcon, ClockIcon,InformationCircleIcon } from "@heroicons/react/20/solid"
 
 import DashboardCard from "../other/DashboardCard"
 import BarChartCard from "../other/BarChartCard"
@@ -10,7 +10,10 @@ import Question from "../other/Question"
 export default function Dashboard(){
     return (
         <div className="bg-background w-full flex flex-col px-12 py-5 gap-4 overflow-y-scroll h-screen">
-            <h1 className="text-xl font-bold">Dashboard</h1>
+            <div className="flex justify-between w-full items-center">
+                <h1 className="text-xl font-bold">Dashboard</h1>
+                <InformationCircleIcon className="w-7 h-7 p-1 rounded-lg hover:cursor-pointer"/>
+            </div>
             <div className="grid grid-cols-4 gap-4">
                 <DashboardCard title="Impressions" total="3,872">
                     <EyeIcon className="w-6 h-6 bg-background p-1 rounded-lg"/>
